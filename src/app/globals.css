@@ -1,6 +1,6 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
 
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -31,3 +31,123 @@ body {
     text-wrap: balance;
   }
 }
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  padding: 20px 20px;
+  background-color: rgb(26, 26, 26);
+  overflow: hidden;
+overflow-y: scroll;
+}
+
+.Statusbox{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 90px;
+}
+
+.texthead{
+  font-size: 14px;
+  font-weight: 500;
+  color: #ffffff;
+
+}
+
+.subtext{
+  margin-top: -2px !important;
+  font-size: 12px;
+  font-weight: 300;
+  color: #fefefed6;
+
+}
+
+.goalicon{
+  width: auto;
+  padding: 0 15px 0 0;
+}
+
+.progressinfo{
+  width: 100%;
+}
+
+.progressbarfull{
+  
+  width: 100%;
+  height: 2px;
+  background-color: #ffffff5c;
+  border-radius: 10px;
+}
+
+.progressbar{
+  height: 100%;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+.percentage{
+  display: flex;
+  justify-content: flex-end;
+  font-size: 10px;
+}
+
+.Todaysgoal{
+  width: 100%;
+}
+
+.list{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+  width: 100%;
+  height: 70px;
+  background-color: rgb(35 35 35);
+  border-radius: 10px;
+  padding: 0 15px;
+}
+
+.iconbg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45px;
+  height: 35px;
+  background-color: #383838;
+  border-radius: 8px;
+}
+
+.listtitle{
+  width: 100%;
+  margin-left: 12px;
+}
+
+.checkbox{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 35px;
+  height: 35px;
+  border-radius: 8px;
+  background-color: rgb(255, 255, 255);
+}
+
+.purple{
+  background-color: #c910ee;
+}
+.orange{
+  background-color: #ff4400;
+}
+.green{
+  background-color: #00c910;
+}
+.lime{
+  background-color: #00CFB6;
+}
+.blue{
+  background-color: #2479BA;
+}
+
