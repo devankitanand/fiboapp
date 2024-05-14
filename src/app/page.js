@@ -89,6 +89,7 @@ export default function Home() {
               <div className='graphbar mx-2' style={{height: '20%'}}></div>
               <div className='graphbar mx-2' style={{height: '40%'}}></div>
               <div className='graphbar mx-2' style={{height: '60%'}}></div>
+              <div className='graphbar mx-2' style={{height: '20%'}}></div>
             </div>
             <div className='date flex mt-2 '>
               <div className='ml-2'>28/4</div>
@@ -100,6 +101,7 @@ export default function Home() {
               <div className='ml-2'>02/5</div>
               <div className='ml-2'>11/5</div>
               <div className='ml-3'>15/5</div>
+              <div className='ml-3'>20/5</div>
             </div>
           </div>
         </div>
