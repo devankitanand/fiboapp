@@ -186,6 +186,7 @@ body {
   background-color: rgb(35 35 35);
   border-radius: 10px;
   margin-bottom: 70px;
+  overflow: hidden;
 }
 
 .percentlist{
