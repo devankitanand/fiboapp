@@ -113,13 +113,13 @@ export default function Home() {
       </div>
       <div onClick={() => router.push('/page2')}>
         <div className='ml-1'><Image src={gym} width={20} height={20} alt='logo'/></div>
-        <div className='textb'>Page1</div></div>
+        <div className='textb text-white'>Page1</div></div>
       <div onClick={() => router.push('/page3')}>
         <div className='ml-1'><Image src={fastfood} width={20} height={20} alt='logo'/></div>
-        <div className='textb'>Page1</div></div>
+        <div className='textb text-white'>Page1</div></div>
       <div onClick={() => router.push('/page4')}>
         <div className='ml-1'><Image src={stats} width={20} height={20} alt='logo'/></div>
-        <div className='textb'>Page1</div></div>
+        <div className='textb text-white'>Page1</div></div>
     </div>
     </>
   );
