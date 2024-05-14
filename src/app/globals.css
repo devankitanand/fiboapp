@@ -155,11 +155,11 @@ body {
 
 .swipee{
   width: 100%;
-  padding: 6px 6px;
+  padding: 10px 6px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #e92929;
+  background-color: #d15438;
   border-radius: 30px;
 }
 
