@@ -63,7 +63,7 @@ export default function Home() {
 
         <div className='swipee mt-4 '>
           <div className='track'>Track</div>
-          <div className='text-sm font-medium'>Swipe to track all</div>
+          <div className='text-sm font-medium text-white'>Swipe to track all</div>
           <div className='mr-3'><Image src={arrows} width={20} height={20} alt="swipe"/></div>
         </div>
 
